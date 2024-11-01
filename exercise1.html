@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Table Layout</title>
+    <style>
+        table {
+            border-collapse: collapse;
+            margin: 20px 0;
+        }
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+        .table1 {
+            width: 50%;
+        }
+        .table1 th {
+            background-color: red;
+            color: white;
+        }
+        .table1 td {
+            background-color: aqua;
+        }
+        .table1 .row2 td {
+            background-color: yellow;
+        }
+        .table2 {
+            width: 80%;
+        }
+        .table2 th {
+            background-color: red;
+            color: white;
+        }
+        .table2 td {
+            background-color: aqua;
+        }
+        h3 {
+            text-align: center;
+        }
+    </style>
+</head>
+<body>
+
+    <h3>Table 1 : Various tags of table</h3>
+    <table class="table1">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+        </tr>
+        <tr class="row2">
+            <td>New Data 1</td>
+            <td>New Data 2</td>
+        </tr>
+    </table>
+
+    <h3>Table 2 : Width is 80%</h3>
+    <table class="table2">
+        <tr>
+            <th>Column 1</th>
+            <th>Column 2</th>
+            <th>Column 3</th>
+        </tr>
+        <tr>
+            <td>Data 1</td>
+            <td>Data 2</td>
+            <td>Data 3</td>
+        </tr>
+    </table>
+
+</body>
+</html>
